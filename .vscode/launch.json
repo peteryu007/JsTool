@@ -4,13 +4,38 @@
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+       
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}\\testTs.ts",
-            "outFiles": [
-                "${workspaceFolder}/**/*.js"
+            "name": "test cs2bat",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\csproj2bat.js",
+            "args":[
+                "-f",
+                "D:\\Project_All\\Gits\\v10_Branch\\V10.4.2\\WebService\\Web\\Penseesoft.WebService.Web.csproj",
+                "-b",
+                "d:\\bin\\"
+            ]
+        }
+        ,
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "test dir2bat",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\dir2bat.js",
+            "args":[
+                "-f",
+                "D:\\Project_All\\Gits\\Patch\\Penseesoft.Attendance.TestApi.Web\\Penseesoft.Attendance.TestApi.Web.bat",
+                "-b",
+                "D:\\Project_All\\Gits\\v10_Branch\\V10.4.2\\web\\bin",
+                "-c",
+                "D:\\Project_All\\Gits\\Patch\\Penseesoft.Attendance.TestApi.Web\\src"
             ]
         }
     ]

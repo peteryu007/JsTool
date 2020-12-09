@@ -1,0 +1,24 @@
+{
+  "name": "csproj2bat",
+  "version": "0.1.1",
+  "description": "修改vs C# 的proj文件",
+  "main": "csproj2bat.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "dir2bat": "dir2bat.js",
+    "cs2bat": "csproj2bat.js"
+  },
+  "dependencies": {
+    "xmldom": "^0.1.27",
+    "xpath": "^0.0.27",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test2file.bat && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

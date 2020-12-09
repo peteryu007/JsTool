@@ -1,0 +1,1 @@
+node dir2bat.js -f "D:\Project_All\Gits\Patch\Penseesoft.Attendance.TestApi.Web\Penseesoft.Attendance.TestApi.Web.bat"  -c "D:\Project_All\Gits\Patch\Penseesoft.Attendance.TestApi.Web\src"  -b "D:\Project_All\Gits\v10_Branch\V10.4.2\web\bin" 
