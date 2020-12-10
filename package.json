@@ -1,0 +1,21 @@
+{
+  "name": "readjs",
+  "version": "1.0.0",
+  "description": "ejim这里考勤打卡，导出数据是json格式，需要转下成sql格式，插入At_PunchClockInfoMobile表。\r sql server自己分析长json 太慢了。",
+  "type":"module",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "iconv-lite": "^0.4.24",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
