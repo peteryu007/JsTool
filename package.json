@@ -1,0 +1,20 @@
+{
+  "name": "splitBigFile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin":{
+    "name":"splitBigFile",
+    "bin":"./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node ./test/generateBigFile.js",
+    "start": "node index.js -f=D:\\big.txt -m=30 -d=d:\\"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^16.2.0"
+  }
+}
